@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <h1>WELCOME TO DOM</h1>
+    <!-- BELOW PARA ITAG IS n[0] -->
+
+    <p id="doc_1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates natus corporis, nisi enim at repellat unde laboriosam eaque sint fugiat, aut nihil ex minus qui in iusto, perspiciatis quae. Accusantium?</p>
+    <!-- BELOW PARA ITAG IS n[1] -->
+    <p> SECOND ELEMENT</p>
+
+    <script>
+        var n = document.getElementsByTagName("p");
+        document.getElementById("doc_1").innerHTML= " FIRST ELEMENT " + n[0].innerHTML + n[1].innerHTML
+    </script>
+   
+    
+</body>
+</html>
+

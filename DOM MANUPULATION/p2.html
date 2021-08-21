@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="demo" > DOM MAIPULATION</h1>
+    <button  onclick="ChangeText()" >ChangeText</button>
+    <button  onclick="ChangeOriginal()" >ChangeOriginal</button>
+    
+</body>
+
+<script>
+
+    function ChangeText(){
+
+        document.getElementById("demo").innerHTML="TEXT IS CHANGED"
+
+    }
+    
+
+    function ChangeOriginal(){
+
+        document.getElementById("demo").innerHTML=" CONTENT IS CHANGED"
+    }
+</script>
+</html>
